@@ -1,0 +1,120 @@
+a<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Border Box</title>
+
+    <style>
+        body{
+            margin-top: 7%;
+            margin-left: 20%;
+            text-align: center;
+        }
+
+        .black-border-box {
+            border: 10px solid black;
+            /* padding: 300px; */
+            width: 700px;
+            height: 700px;
+            
+        }
+        .box-heading {
+            color: #333;
+            text-align: center;
+            border: 3px solid black;
+            width:675px;
+            margin-left: 1%;
+        }
+        .right-column {
+            width: 80px;
+            padding: 20px;
+            height: 570px;
+            border: 2px solid black;
+            margin-left: 1%;
+        }
+    
+        .left-box {
+            width: 500px;
+            padding: 20px;
+            height: 570px;
+            border: 2px solid black;
+            margin-left: 1%;
+        }
+        .flex1{
+            display: flex;
+            gap:3px;
+        }
+        p{
+            margin-top: 250px;
+            font-weight: 800;
+        }
+        .under-box{
+            border: 10px solid black;
+            width: 400px;
+            height: 500px;
+            margin-left: 7%;
+            margin-top: 7%;
+            margin-right: 10%;
+            
+        }
+        table {
+  border-spacing: 15px;}
+        table, th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 3%;
+        }
+        tr:first-child td {
+            width: 50px;
+            height: 30px; 
+        }
+        </style>
+</head>
+<body>
+    <h2 class="body">Horizontal and Vertical Alignment</h2>
+<div class="container">
+    <div class="black-border-box">
+        <h2 class="box-heading">Cell Alignment with CSS</h2>
+        <div class="flex1">
+        <div class="right-column">
+            <p>Examples</p>
+        </div>
+        <div class="left-box">
+                <table class="under-box">
+                    <tr>
+                        <td>Row 1</td>
+                        <td>cell-1</td>
+                        <td>cell-2</td>
+                        <td>cell-3</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>CSS</td>
+                        <td>CSS</td>
+                        <td>CSS</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>CSS</td>
+                        <td>CSS</td>
+                        <td>CSS</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>CSS</td>
+                        <td>CSS</td>
+                        <td>CSS</td>
+                    </tr>
+                </table>
+                <h2> Nested Table</h2>
+
+        </div>
+    </div>
+
+    </div>
+    
+</div>
+
+</body>
+</html>
